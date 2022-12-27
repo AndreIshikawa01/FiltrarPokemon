@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: red;
+    text-transform: uppercase;
+}
+
+#pokemons{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pokemon-card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+}
+.pokemon-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  .pokemon-card h2 {
+    margin: 0;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid black;
+  }
+  
+  .pokemon-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .pokemon-card p {
+    margin: 0;
+    padding: 10px;
+    background: #f2f2f2;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+  #btn-grama:hover{
+    background-color: green;
+    border: 1px solid green;
+  }
+  #btn-fogo:hover{
+    background-color: red;
+    border: 1px solid red;
+  }
+  #btn-agua:hover{
+    background-color: aqua;
+    border: 1px solid aqua;
+  }
+  #btn-normal:hover{
+    background-color: gray;
+    border: 1px solid gray;
+  }
+  #btn-eletrico:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+  }
+
+  .btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  @media (max-width: 750px ) {
+
+  .btn{
+    gap: 0px;
+  }
+  #pokemons{
+    width: 100%;
+  }
+    }
