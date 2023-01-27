@@ -1,37 +1,37 @@
-    
+   
     let pokemons = [
   {
     name: 'Bulbasaur',
     type: 'grama',
-    image: 'https://cdn.icon-icons.com/icons2/851/PNG/512/bulbasaur_icon-icons.com_67580.png'
+    image: 'imagens/bulbasaur_icon-icons.com_67580.png'
     
   },
   {
     name: 'Charmander',
     type: 'fogo',
-    image: 'https://cdn.icon-icons.com/icons2/851/PNG/512/charmander_icon-icons.com_67576.png'
-  },
+    image: 'imagens/charmander_icon-icons.com_67576.png'
+  }, 
   
   {
     name: 'Squirtle',
     type: 'água',
-    image: 'https://cdn.icon-icons.com/icons2/851/PNG/512/squirtle_icon-icons.com_67504.png'
+    image: 'imagens/squirtle_icon-icons.com_67504.png'
 
   },
   {
     name: 'Eevee',
     type: 'normal',
-    image: 'https://cdn.icon-icons.com/icons2/851/PNG/512/eevee_icon-icons.com_67563.png'
+    image: 'imagens/eevee_icon-icons.com_67563.png'
   },
   {
     name: 'Snorlax',
     type : 'normal',
-    image: 'https://cdn.icon-icons.com/icons2/851/PNG/512/snorlax_icon-icons.com_67505.png'
+    image: 'imagens/snorlax_icon-icons.com_67505.png'
   },
   {
     name: 'Pikachu',
     type: 'eletrico',
-    image: 'https://cdn.icon-icons.com/icons2/851/PNG/512/pikachu_icon-icons.com_67535.png'
+    image: 'imagens/pikachu_icon-icons.com_67535.png'
   },
     ]
 
