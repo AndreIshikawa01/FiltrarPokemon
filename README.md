@@ -4,4 +4,4 @@ Com esse mini "projeto" com javascript pratiquei as seguintes habilidades:<br>
 2- Manipular arrays e objetos no JavaScript e utilizei o filter(), map() e join();<br>
 3- Utilizar o addEventListiner() ao clickar em um botão;<br>
 4- Utilizar o atributo innerHTML para alterar o conteúdo HTML de um elemento.
-https://andreishikawa01.github.io/FiltrarPokemon/pokemon.html
+https://andreishikawa01.github.io/FiltrarPokemon-PROJETO/pokemon.html
